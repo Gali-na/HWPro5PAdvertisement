@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+
+        <servlet-name>WriteAdver</servlet-name>
+
+        <servlet-class>com.example.demog.WriteAdver</servlet-class>
+
+    </servlet>
+
+
+    <servlet-mapping>
+
+        <servlet-name>WriteAdver</servlet-name>
+
+        <url-pattern>/write</url-pattern>
+
+    </servlet-mapping>
+
+    <servlet>
+
+        <servlet-name>PrintAdversiment</servlet-name>
+
+        <servlet-class>com.example.demog.PrintAdversiment</servlet-class>
+
+    </servlet>
+
+
+    <servlet-mapping>
+
+        <servlet-name>PrintAdversiment</servlet-name>
+
+        <url-pattern>/printAdversiment</url-pattern>
+
+    </servlet-mapping>
+
+    <servlet>
+
+        <servlet-name>AddSeller</servlet-name>
+
+        <servlet-class>com.example.demog.AddSeller</servlet-class>
+
+    </servlet>
+
+
+    <servlet-mapping>
+
+        <servlet-name>AddSeller</servlet-name>
+
+        <url-pattern>/addSeller</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+
+        <servlet-name>AddAdvertisement</servlet-name>
+
+        <servlet-class>com.example.demog.AddAdvertisement</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddAdvertisement</servlet-name>
+
+        <url-pattern>/addAdvertisement</url-pattern>
+    </servlet-mapping>
+</web-app>

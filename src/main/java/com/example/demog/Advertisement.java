@@ -1,13 +1,15 @@
 package com.example.demog;
 
-public class Advertisement {
+import java.io.Serializable;
+
+public class Advertisement implements Serializable {
     private String name;
     private String lastName;
     private String phoneNumber;
     private String pasword;
     private String textAdvertisement;
 
-    public Advertisement(String name, String lastName, String phoneNumber, String pasword, String textAdvertisement) {
+    public Advertisement (String name, String lastName, String phoneNumber, String pasword, String textAdvertisement) {
         this.name = name;
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;

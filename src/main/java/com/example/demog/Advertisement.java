@@ -6,14 +6,14 @@ public class Advertisement implements Serializable {
     private String name;
     private String lastName;
     private String phoneNumber;
-    private String pasword;
+    private String password;
     private String textAdvertisement;
 
-    public Advertisement (String name, String lastName, String phoneNumber, String pasword, String textAdvertisement) {
+    public Advertisement (String name, String lastName, String phoneNumber, String password, String textAdvertisement) {
         this.name = name;
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
-        this.pasword = pasword;
+        this.password = password;
         this.textAdvertisement = textAdvertisement;
     }
 
@@ -44,12 +44,12 @@ public class Advertisement implements Serializable {
         this.phoneNumber = phoneNumber;
     }
 
-    public String getPasword() {
-        return pasword;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPasword(String pasword) {
-        this.pasword = pasword;
+    public void setPassword(String password) {
+        this.password =password;
     }
 
     public String getTextAdvertisement() {
@@ -66,7 +66,7 @@ public class Advertisement implements Serializable {
                 "name='" + name + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
-                ", pasword='" + pasword + '\'' +
+                ", pasword='" + password + '\'' +
                 ", textAdvertisement='" + textAdvertisement + '\'' +
                 '}';
     }
